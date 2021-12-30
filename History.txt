@@ -1,4 +1,4 @@
-=== Not yet released
+=== 0.4.0 2021-12-30
 
 * Drop support of ruby 2.5 or older versions as explicit.
 
