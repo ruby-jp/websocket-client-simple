@@ -11,6 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary       = spec.description
   spec.homepage      = "https://github.com/ruby-jp/websocket-client-simple"
   spec.license       = "MIT"
+  spec.required_ruby_version = '>= 2.6.9'
 
   if spec.respond_to?(:metadata)
     spec.metadata["homepage_uri"] = spec.homepage

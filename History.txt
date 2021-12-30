@@ -1,3 +1,7 @@
+=== Not yet released
+
+* Drop support of ruby 2.5 or older versions as explicit.
+
 === 0.3.1 2021-12-30
 
 * The development of this repository has moved to https://github.com/ruby-jp/websocket-client-simple
