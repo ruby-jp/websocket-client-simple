@@ -1,3 +1,7 @@
+=== 0.3.1 2021-12-30
+
+* The development of this repository has moved to https://github.com/ruby-jp/websocket-client-simple
+
 === 0.3.0 2016-02-20
 
 * "connect" method runs a given block before connecting WebSocket  #12
