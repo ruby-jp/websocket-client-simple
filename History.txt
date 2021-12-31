@@ -2,6 +2,8 @@
 
 * Change TLS context defaults to system's default. The previous defaults were ssl_version=SSLv23 and verify_mode=VERIFY_NONE, which are insecure nowadays.
 
+* Made the necessary changes to use SNI.
+
 === 0.4.0 2021-12-30
 
 * Drop support of ruby 2.5 or older versions as explicit.
