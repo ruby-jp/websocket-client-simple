@@ -95,7 +95,7 @@ module WebSocket
           @handshake.finished? and !@closed
         end
         
-        def close?
+        def closed?
           @closed
         end
         
