@@ -1,5 +1,7 @@
 === Not yet released
 
+=== 0.5.0 2021-12-31
+
 * Change TLS context defaults to system's default. The previous defaults were ssl_version=SSLv23 and verify_mode=VERIFY_NONE, which are insecure nowadays. #5
   * thank you for contributing @eagletmt
 * Made the necessary changes to use SNI. #6
