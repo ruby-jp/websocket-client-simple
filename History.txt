@@ -1,6 +1,7 @@
 === Not yet released
 
 * Add `closed?` method to `WebSocket::Client::Simple` #8 by @fuyuton
+* rescue when `OpenSSL::SSL::SSLError` raised #10 by @fuyuton
 
 === 0.5.0 2021-12-31
 
