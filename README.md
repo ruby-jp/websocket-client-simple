@@ -1,11 +1,11 @@
 websocket-client-simple
 =======================
-Simple WebSocket Client for Ruby
+Simple WebSocket Client for Ruby (original author: @shokai)
 
-- https://github.com/shokai/websocket-client-simple
+- https://github.com/ruby-jp/websocket-client-simple
 - https://rubygems.org/gems/websocket-client-simple
 
-[![Circle CI](https://circleci.com/gh/shokai/websocket-client-simple.svg?style=svg)](https://circleci.com/gh/shokai/websocket-client-simple)
+[![.github/workflows/test.yml](https://github.com/ruby-jp/websocket-client-simple/actions/workflows/test.yml/badge.svg)](https://github.com/ruby-jp/websocket-client-simple/actions/workflows/test.yml)
 
 Installation
 ------------
