@@ -16,7 +16,6 @@ Installation
 Usage
 -----
 ```ruby
-require 'rubygems'
 require 'websocket-client-simple'
 
 ws = WebSocket::Client::Simple.connect 'ws://example.com:8888'
@@ -60,7 +59,7 @@ end
 
 Sample
 ------
-[websocket chat](https://github.com/shokai/websocket-client-simple/tree/master/sample)
+[websocket chat](https://github.com/ruby-jp/websocket-client-simple/tree/master/sample)
 
 
 Test

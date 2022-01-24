@@ -1,6 +1,5 @@
 #!/usr/bin/env ruby
 $:.unshift File.expand_path '../lib', File.dirname(__FILE__)
-require 'rubygems'
 require 'websocket-client-simple'
 
 puts "websocket-client-simple v#{WebSocket::Client::Simple::VERSION}"
