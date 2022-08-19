@@ -23,10 +23,14 @@ module WebSocket
             ctx = OpenSSL::SSL::SSLContext.new
             ctx.ssl_version = options[:ssl_version] if options[:ssl_version]
             ctx.verify_mode = options[:verify_mode] if options[:verify_mode]
-            cert_store = OpenSSL::X509::Store.new
+            cert_store = options[:cert_store]
+            unless cert_store
+              cert_store = OpenSSL::X509::Store.new
+            end
             cert_store.set_default_paths
             ctx.cert_store = cert_store
             @socket = ::OpenSSL::SSL::SSLSocket.new(@socket, ctx)
+            @socket.sync_close = true
             @socket.hostname = uri.host
             @socket.connect
           end
