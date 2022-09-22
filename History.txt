@@ -1,5 +1,10 @@
 === Not yet released
 
+== 0.6.0 2022-09-22
+
+* Add option `cert_store` for passing cert store to SSLSocket context #12 by @DerekStride
+* Set `OpenSSL::SSL::SSLSocket#sync_close` to `true` #12 by @DerekStride
+
 === 0.5.1 2022-01-01
 
 * Add `closed?` method to `WebSocket::Client::Simple` #8 by @fuyuton
