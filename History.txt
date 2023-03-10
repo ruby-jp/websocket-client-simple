@@ -1,5 +1,9 @@
 === Not yet released
 
+== 0.6.1 2023-03-10
+
+* Make #open? safe to use when `@handshake` is `nil` #20 by @cyberarm
+
 == 0.6.0 2022-09-22
 
 * Add option `cert_store` for passing cert store to SSLSocket context #12 by @DerekStride
