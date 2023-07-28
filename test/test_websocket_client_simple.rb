@@ -1,6 +1,6 @@
 require_relative 'test_helper'
 
-class TestWebSocketClientSimple < MiniTest::Test
+class TestWebSocketClientSimple < Minitest::Test
 
   def test_echo
     msgs = ['foo','bar','baz']

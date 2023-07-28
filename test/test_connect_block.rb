@@ -1,11 +1,11 @@
 require File.expand_path 'test_helper', File.dirname(__FILE__)
 
-class TestWebSocketClientSimple < MiniTest::Test
-  
+class TestWebSocketClientSimple < Minitest::Test
+
   def test_onopen
-    
+
     EM::run{
-      
+
       EchoServer.start
 
       res = nil
@@ -27,7 +27,7 @@ class TestWebSocketClientSimple < MiniTest::Test
         EM::stop_event_loop
       end
     }
-    
+
   end
-  
+
 end
