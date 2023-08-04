@@ -31,6 +31,7 @@ module WebSocket
             @socket.hostname = uri.host
             @socket.connect
           end
+          ::WebSocket.should_raise = true
           @handshake = ::WebSocket::Handshake::Client.new :url => url, :headers => options[:headers]
           @handshaked = false
           @pipe_broken = false
