@@ -2,6 +2,10 @@
 
 ## Not yet released
 
+## 0.7.0 - 2023-08-04
+* Expose add accessor `Client#thread` #22 by @jlaffaye
+* Rewrite changelog as a Markdown
+
 ## 0.6.1 - 2023-03-10
 * Make `#open?` safe to use when `@handshake` is `nil` #20 by @cyberarm
 
