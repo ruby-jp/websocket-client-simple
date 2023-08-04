@@ -16,7 +16,7 @@ Gem::Specification.new do |spec|
   if spec.respond_to?(:metadata)
     spec.metadata["homepage_uri"] = spec.homepage
     spec.metadata["source_code_uri"] = spec.homepage
-    spec.metadata["changelog_uri"] = "https://github.com/ruby-jp/websocket-client-simple/blob/master/History.txt"
+    spec.metadata["changelog_uri"] = "https://github.com/ruby-jp/websocket-client-simple/blob/master/CHANGELOG.md"
   end
 
   spec.post_install_message = "The development of this gem has moved to #{spec.homepage}."
