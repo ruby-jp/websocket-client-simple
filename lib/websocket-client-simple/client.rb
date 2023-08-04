@@ -11,7 +11,7 @@ module WebSocket
 
       class Client
         include EventEmitter
-        attr_reader :url, :handshake
+        attr_reader :url, :handshake, :thread
 
         def connect(url, options={})
           return if @socket
