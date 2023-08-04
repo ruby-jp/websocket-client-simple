@@ -72,7 +72,7 @@
 * fix sample and README
 
 ## 0.0.3 - 2013-03-23
-* `:type => :text` option i n send
+* `:type => :text` option in send
 
 ## 0.0.2 - 2013-03-22
 * remove unnecessary sleep
