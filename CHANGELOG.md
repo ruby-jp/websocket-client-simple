@@ -2,6 +2,9 @@
 
 ## Not yet released
 
+## 0.8.0 - 2023-08-08
+* Set `WebSocket.should_raise = true` https://github.com/ruby-jp/websocket-client-simple/pull/25 by @jlaffaye
+
 ## 0.7.0 - 2023-08-04
 * Expose add accessor `Client#thread` #22 by @jlaffaye
 * Rewrite changelog as a Markdown
