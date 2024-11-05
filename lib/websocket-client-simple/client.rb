@@ -45,9 +45,17 @@ module WebSocket
           @thread = Thread.new do
             while !@closed do
               begin
-                unless recv_data = @socket.getc
-                  sleep 1
-                  next
+                # Read a byte at a time until the handshake is finished
+                # Then read in 8KiB chunks
+                recv_data = if @handshaked
+                              @socket.readpartial(8192)
+                            else
+                              @socket.getc
+                            end
+                # if recv_data is nil, the socket is closed
+                if recv_data.nil?
+                  close
+                  break
                 end
                 unless @handshaked
                   @handshake << recv_data
