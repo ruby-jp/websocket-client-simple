@@ -34,4 +34,6 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "websocket"
   spec.add_dependency "event_emitter"
+  spec.add_dependency "mutex_m"
+  spec.add_dependency "base64"
 end
