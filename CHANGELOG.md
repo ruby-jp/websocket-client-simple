@@ -2,6 +2,9 @@
 
 ## Not yet released
 
+## 0.9.0 - 2024-12-31
+* Add mutex_m and base46 to runtime dependencies #31
+
 ## 0.8.0 - 2023-08-08
 * Set `WebSocket.should_raise = true` https://github.com/ruby-jp/websocket-client-simple/pull/25 by @jlaffaye
 
